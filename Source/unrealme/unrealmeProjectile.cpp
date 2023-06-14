@@ -22,8 +22,8 @@ AunrealmeProjectile::AunrealmeProjectile()
 	// Use a ProjectileMovementComponent to govern this projectile's movement
 	ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjectileComp"));
 	ProjectileMovement->UpdatedComponent = CollisionComp;
-	ProjectileMovement->InitialSpeed = 3000.f;
-	ProjectileMovement->MaxSpeed = 3000.f;
+//	ProjectileMovement->InitialSpeed = ProjectileSettings.InitialSpeed;
+//	ProjectileMovement->MaxSpeed = ProjectileSettings.MaxSpeed;
 	ProjectileMovement->bRotationFollowsVelocity = true;
 	ProjectileMovement->bShouldBounce = true;
 
