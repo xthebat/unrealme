@@ -7,12 +7,12 @@
 #include "unrealmeGameMode.generated.h"
 
 UCLASS(minimalapi)
-class AunrealmeGameMode : public AGameModeBase
-{
-	GENERATED_BODY()
+
+class AunrealmeGameMode : public AGameModeBase {
+    GENERATED_BODY()
 
 public:
-	AunrealmeGameMode();
+    AunrealmeGameMode();
 };
 
 
